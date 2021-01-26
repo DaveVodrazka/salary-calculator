@@ -1,0 +1,16 @@
+{
+	"tax": 26,
+	"taxHigh": 34,
+	"highIncome": 142000,
+	"minimalWage": 15200,
+	"ending": ",- Kč",
+	"salaryId": "hruba-mzda",
+	"childrenId": "pocet-deti",
+	"signedTaxes": "prohlaseni",
+	"studentId": "student",
+	"invalid1": "invalidni-duchod-I-II",
+	"invalid3": "invalidni-duchod-III",
+	"ztp": "ztp",
+	"outputId": "cista-mzda",
+	"buttonId": "button"
+}

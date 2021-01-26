@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="cz">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/purecss@2.0.4/build/pure-min.css"
+			integrity="sha384-LJy5cxQRSMIYu2ic+Tvw0Azob5Z3dQxRkR8LNGIq46AJEdfE9DtuBOCNtifRJeB7"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="main.css" />
+		<title>Kalkulátor čisté mzdy</title>
+	</head>
+	<body>
+		<form>
+			<div class="card m-1">
+				<div class="card-header text-center">Kalkulátor čisté mzdy</div>
+				<div class="card-body">
+					<div class="form-floating mb-3">
+						<input type="number" class="form-control" id="hruba-mzda" value="15200"  min="15200" />
+						<label for="hruba-mzda">Hrubá měsíční mzda:</label>
+					</div>
+					<div class="form-floating mb-3">
+						<input
+							type="number"
+							class="form-control"
+							id="pocet-deti"
+							value="0"
+							min="0"
+						/>
+						<label for="pocet-deti">Počet dětí:</label>
+					</div>
+					<div class="form-check mb-3">
+						<input
+							class="form-check-input"
+							type="checkbox"
+							value=""
+							id="prohlaseni"
+							checked
+						/>
+						<label class="form-check-label" for="prohlaseni">
+							Podepsané prohlášení k dani
+						</label>
+					</div>
+					<div class="form-check mb-3">
+						<input
+							class="form-check-input"
+							type="checkbox"
+							value=""
+							id="student"
+						/>
+						<label class="form-check-label" for="student">
+							Jsem student do 26 let
+						</label>
+					</div>
+					<div class="form-check mb-3">
+						<input
+							class="form-check-input"
+							type="checkbox"
+							value=""
+							id="invalidni-duchod-I-II"
+						/>
+						<label class="form-check-label" for="invalidni-duchod-I-II">
+							Invalidní důchod I. a II. stupně
+						</label>
+					</div>
+					<div class="form-check mb-3">
+						<input
+							class="form-check-input"
+							type="checkbox"
+							value=""
+							id="invalidni-duchod-III"
+						/>
+						<label class="form-check-label" for="invalidni-duchod-III">
+							Invalidní důchod III. stupně
+						</label>
+					</div>
+					<div class="form-check mb-3">
+						<input class="form-check-input" type="checkbox" value="" id="ztp" />
+						<label class="form-check-label" for="ztp">
+							Držitel průkazu ZTP/P
+						</label>
+					</div>
+					<div class="d-grid mb-3">
+						<button class="btn btn-primary" type="submit" id="button">
+							Spočítat čistou mzdu
+						</button>
+					</div>
+					<div class="mb-3">
+						<label for="cista-mzda" class="form-label">Čistá mzda: </label>
+						<span
+							id="cista-mzda"
+							class="fw-bold"
+						></span>
+					</div>
+				</div>
+			</div>
+		</form>
+		<script defer src="main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+// Required
+@import "Bootstrap/scss/functions";
+@import "Bootstrap/scss/variables";
+@import "Bootstrap/scss/mixins";
+
+// Custom SCSS here, sequence matters
+@import "./styles/_custom.scss";
+
+// Optional
+// @import "Bootstrap/scss/accordion";
+// @import "Bootstrap/scss/alert";
+// @import "Bootstrap/scss/badge";
+// @import "Bootstrap/scss/breadcrumb";
+// @import "Bootstrap/scss/button-group";
+@import "Bootstrap/scss/buttons";
+@import "Bootstrap/scss/card";
+// @import "Bootstrap/scss/carousel";
+// @import "Bootstrap/scss/close";
+// @import "Bootstrap/scss/containers";
+// @import "Bootstrap/scss/dropdown";
+@import "Bootstrap/scss/forms";
+// @import "Bootstrap/scss/functions";
+// @import "Bootstrap/scss/grid";
+// @import "Bootstrap/scss/helpers";
+// @import "Bootstrap/scss/images";
+// @import "Bootstrap/scss/list-group";
+// @import "Bootstrap/scss/mixins";
+// @import "Bootstrap/scss/modal";
+// @import "Bootstrap/scss/nav";
+// @import "Bootstrap/scss/navbar";
+// @import "Bootstrap/scss/pagination";
+// @import "Bootstrap/scss/popover";
+// @import "Bootstrap/scss/progress";
+@import "Bootstrap/scss/reboot";
+@import "Bootstrap/scss/root";
+// @import "Bootstrap/scss/spinners";
+// @import "Bootstrap/scss/tables";
+// @import "Bootstrap/scss/toasts";
+// @import "Bootstrap/scss/tooltip";
+// @import "Bootstrap/scss/transitions";
+// @import "Bootstrap/scss/type";
+// @import "Bootstrap/scss/utilities";
+// @import "Bootstrap/scss/variables";
+
+// @import "Bootstrap/scss/helpers/ratio";
+
+@import "Bootstrap/scss/bootstrap-utilities";
+
+@import "./styles/styles.scss";
